@@ -32,7 +32,7 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
         trimmedEmail === 'admin@moslemganj.edu.bd' ||
         trimmedEmail === 'admin' ||
         trimmedEmail === 'mdbayezidbostami15@gmail.com';
-      const validPass = password.trim() === 'admin123';
+      const validPass = password.trim() === 'BayeziD312552@';
 
       if (validEmail && validPass) {
         setIsLoading(false);
